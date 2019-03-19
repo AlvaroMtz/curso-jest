@@ -10,9 +10,8 @@ describe('Comparadores comunes', () => {
 
     test('igualdad de elementos', () => {
         expect(user).toEqual(user2);
-    })
-
-    test('No son exactamente iguales', () => {
-        expect(user).not.toEqual(user2);
-    })
+    });
+    // test('No son exactamente iguales', () => {
+    //     expect(user).not.toEqual(user2);
+    // });
 })
